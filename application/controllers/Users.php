@@ -62,6 +62,7 @@ class Users extends CI_Controller{
                 );
                 //Set session userdata
                $this->session->set_userdata($user_data);
+               $this->session->set_flashdata('success', 'Hi, you are now logged in');
 
                redirect('home/index');
             } else {
