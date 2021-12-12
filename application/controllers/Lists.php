@@ -39,8 +39,8 @@ class Lists extends CI_Controller {
 
 
     public function add(){
-        $this->form_validation->set_rules('list_name','List Name','trim|required|xss_clean');
-        $this->form_validation->set_rules('list_body','List Body','trim|xss_clean');
+        $this->form_validation->set_rules('list_name','List Name','trim|required');
+        $this->form_validation->set_rules('list_body','List Body','trim');
 
         if($this->form_validation->run() == FALSE){
             //Load view and layout
@@ -64,7 +64,7 @@ class Lists extends CI_Controller {
 
 
      public function quickadd(){
-        $this->form_validation->set_rules('list_name','List Name','trim|required|xss_clean');
+        $this->form_validation->set_rules('list_name','List Name','trim|required');
         if($this->form_validation->run() == FALSE){
             //Load view and layout
             $data['main_content'] = 'home';
@@ -79,8 +79,8 @@ class Lists extends CI_Controller {
 
 
     public function edit($list_id){
-        $this->form_validation->set_rules('list_name','List Name','trim|required|xss_clean');
-        $this->form_validation->set_rules('list_body','List Body','trim|xss_clean');
+        $this->form_validation->set_rules('list_name','List Name','trim|required');
+        $this->form_validation->set_rules('list_body','List Body','trim');
 
         if($this->form_validation->run() == FALSE){
             //Get the current list info
