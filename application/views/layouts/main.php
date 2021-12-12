@@ -60,7 +60,7 @@
 		<hr>
 
 		<footer>
-			<p>&copy; Copyright 2013</p>
+			<p>&copy; Copyright 2021</p>
 		</footer>
 	</div>
 	<!--/.fluid-container-->

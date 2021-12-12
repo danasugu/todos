@@ -1,5 +1,5 @@
 <h1>Welcome to myTodo!</h1>
-<p>myTodo us a simple and helpful application to help you manage your day to day tasks. You can add as many task lists
+<p>myTodo is a simple and helpful application to help you manage your day to day tasks. You can add as many task lists
 	as you want and as many tasks as you want. myTodo is absolutely free! Have fun.</p>
 <!-- <?php if($this->session->userdata('logged_in')) : ?> -->
 <br />
@@ -8,7 +8,7 @@
 <p>
 	<!-- <?php echo form_open('lists/quickadd'); ?>
 	<?php $data = array("placeholder" => "Add a New List",
-                         "name" => "list_name"); ?>
+                        "name" => "list_name"); ?>
 	<?php echo form_input($data); ?> -->
 	<!--Submit Buttons-->
 	<!-- <?php $data = array("value" => "Login",
