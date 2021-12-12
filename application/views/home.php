@@ -1,7 +1,7 @@
 <h1>Welcome to myTodo!</h1>
 <p>myTodo is a simple and helpful application to help you manage your day to day tasks. You can add as many task lists
 	as you want and as many tasks as you want. myTodo is absolutely free! Have fun.</p>
-<!-- <?php if($this->session->userdata('logged_in')) : ?> -->
+<?php if($this->session->userdata('logged_in')) : ?>
 <br />
 <!--Display Errors-->
 <!-- <?php echo validation_errors('<p class="text-error">'); ?> -->
