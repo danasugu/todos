@@ -50,19 +50,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="form-group">
 							<label class="col-sm-2 control-label">Description</label>
 							<div class="col-sm-10">
-								<input type="text" name="description" class="form-control input-sm">
+								<input type="text" name="description_l1" class="form-control input-sm">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-2 control-label">Price</label>
 							<div class="col-sm-10">
-								<input type="text" name="price" class="form-control input-sm">
+								<input type="text" name="price_l1" class="form-control input-sm">
 							</div>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-2 control-label">Qty</label>
 							<div class="col-sm-10">
-								<input type="text" name="qty" class="form-control input-sm">
+								<input type="text" name="qty_l1" class="form-control input-sm">
 							</div>
 						</div>
 

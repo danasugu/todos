@@ -11,6 +11,14 @@ class Main_model extends CI_Model {
       'invoice_number' => $this->input->post('invoice_number'),
       'invoice_prefix' => $this->input->post('invoice_prefix'),
     );
+
+    $data2 = array(
+      'description_l1' => $this->input->post('description_l1'),
+      'price_l1' => $this->input->post('price_l1'),
+      'qty_l1' => $this->input->post('qty_l1'),
+    );
+
+
   }
 
 }
