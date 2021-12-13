@@ -105,4 +105,34 @@ class Tasks extends CI_Controller {
             //Redirect to list index
             redirect('lists/show/'.$list_id.'');
      }
-}
+
+
+         public function add_invoice()
+         {
+         if( $this->input->post('add_invoice') )
+         {
+         $description = $this->input->post('description');
+         $price= $this->input->post('price');
+         $qty= $this->input->post('qty');
+         $vat= $this->input->post('vat');
+
+
+
+         $prod_data = array (
+         'descrition' => $description,
+         'price' => $price,
+         'qty' => $qty,
+         'vat' => $vat
+
+         );
+         // var_dump($prod_details);
+         $this->Main_model->add_invoice( $prod_data );
+         // redirect(' ','reload');
+         echo 'success!';
+         }
+
+
+         $this->load->view('invoices/add_invoice');
+
+         }
+         }
