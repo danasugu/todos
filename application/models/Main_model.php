@@ -18,6 +18,12 @@ class Main_model extends CI_Model {
       'qty_l1' => $this->input->post('qty_l1'),
     );
 
+    $data3 = array(
+      'description_l2' => $this->input->post('description_l2'),
+      'price_l2' => $this->input->post('price_l2'),
+      'qty_l2' => $this->input->post('qty_l2'),
+    );
+
 
   }
 
