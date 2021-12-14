@@ -24,6 +24,16 @@ class Main_model extends CI_Model {
       'qty_l2' => $this->input->post('qty_l2'),
     );
 
+    $data4 = array(
+      'description_l3' => $this->input->post('description_l3'),
+      'price_l3' => $this->input->post('price_l3'),
+      'qty_l3' => $this->input->post('qty_l3'),
+    );
+
+    $this->db->insert('invoices', $data1);
+    $this->db->insert('invoices_lines', $data2, $data3, $data4);
+
+    
 
   }
 
