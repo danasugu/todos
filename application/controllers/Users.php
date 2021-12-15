@@ -73,7 +73,6 @@ class Users extends CI_Controller{
         }
     }
 
-
     public function logout(){
         //Unset user data
         $this->session->unset_userdata('logged_in');
